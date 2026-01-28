@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+class Demo {
+private:
+    void secret() {
+        cout << "Private function called by Soham Sachdeva(1024150035)\n";
+    }
+public:
+    void show() {
+        secret(); 
+    }
+};
+int main() {
+
+    Demo d;
+    d.show();
+}
