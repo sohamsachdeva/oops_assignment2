@@ -1,0 +1,53 @@
+// question 6 part a
+// #include <iostream>
+// using namespace std;
+// class Test {
+// public:
+//     void show();   
+// };  
+// void Test::show() {  
+//     cout << "Function defined outside class" << endl;
+// }
+// int main() {
+//     cout<<"Soham Sachdeva(1024150035)"<<endl;
+//     Test t;
+//     t.show();
+//     return 0;
+// }
+
+
+// question 6 part b
+// #include <iostream>
+// using namespace std;
+// int x = 10;   
+// int main() {
+//     int x = 20;
+//     cout<<"Soham Sachdeva(1024150035)"<<endl;
+//     cout << "Local x: " << x << endl;
+//     cout << "Global x: " << ::x << endl;
+//     return 0;
+// }
+
+
+// question 6 part c
+// #include <iostream>
+// using namespace std;
+// class variable {
+// public:
+//     static int x;
+// };
+// int variable::x = 50;
+// int main() {
+//     cout<<"Soham Sachdeva(1024150035)"<<endl;
+//     cout << variable::x << endl;
+//     return 0;
+// }
+
+
+
+// question 6 part d
+#include <iostream>
+int main() {
+    std::cout << "Soham Sachdeva(1024150035)" << std::endl;
+    return 0;
+}
