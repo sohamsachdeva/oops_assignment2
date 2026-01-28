@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+class Student {
+private:
+    string name;
+    int rollNo;
+    float cgpa;
+
+    void updateCGPA(float c) {
+        cgpa = c;
+    }
+public:
+    void addDetails() {
+        cout << "Enter Name, Roll No, CGPA: ";
+        cin >> name >> rollNo >> cgpa;
+    }
+    void modifyCGPA(float c) {
+        updateCGPA(c);   
+    }
+    void display() {
+        cout << name << " " << rollNo << " " << cgpa << endl;
+    }
+};
+int main() {
+    cout<<"Soham Sachdeva(1024150035)"<<endl;
+    Student s;
+    s.addDetails();
+    s.modifyCGPA(8.5);
+    s.display();
+}
