@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+namespace A {
+    int x = 10;
+    void show() {
+        cout << "Namespace A\n";
+    }
+}
+namespace B {
+    int x = 20;
+    void show() {
+        cout << "Namespace B\n";
+    }
+}
+int main() {
+    cout<<"Soham Sachdeva(1024150035)"<<endl;
+    cout << A::x << endl;
+    cout << B::x << endl;
+    A::show();
+    B::show();
+}
